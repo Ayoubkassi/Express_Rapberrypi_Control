@@ -36,7 +36,8 @@ gpio.write(12, false, function(err) {
 
 });
 
+const PORT = 3000 ;
 
-app.listen(3000, function () {
-  console.log('Simple LED Control Server Started on Port: 3000!')
+app.listen(PORT ,  () => {
+  console.log(`Simple LED Control Server Started on Port: ${PORT}`);
 })
