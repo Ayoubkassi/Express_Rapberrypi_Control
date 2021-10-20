@@ -1,0 +1,25 @@
+{
+  "name": "express_rapberrypi_control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayoubkassi/Express_Rapberrypi_Control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayoubkassi/Express_Rapberrypi_Control/issues"
+  },
+  "homepage": "https://github.com/Ayoubkassi/Express_Rapberrypi_Control#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "rpi-gpio": "^2.1.7"
+  }
+}
